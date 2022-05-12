@@ -1,0 +1,89 @@
+.btt {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#c42c9e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: rgb(244, 245, 247);
+  }
+  
+  .btt:hover {background-color:#851a6a}
+  
+  .btt:active {
+    background-color:#811867;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .time {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 1.7%;
+    width: 160px;
+    height: 30px;
+    border: 3px solid #dd7d7d;
+    background: #ffffff;
+    border-radius: 500px;
+    -webkit-text-fill-color: #090c70;
+    font-size: large;
+    font-style: oblique;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+  @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+  * {
+    font-family: "Montserrat", sans-serif !important;
+    box-sizing: content-box;
+  }
+  .outer-circle span {
+    top: 5px;
+    right: 1.25%;
+    position: absolute;
+    width: 185px;
+    height: 50px;
+    background: linear-gradient(#14ffe9, #ffeb3b, #eb92e0);
+    border-radius: 500px;
+    animation: rotate 1.5s linear infinite;
+  }
+  span:nth-child(1) {
+    filter: blur(5px);
+  }
+  span:nth-child(2) {
+    filter: blur(10px);
+  }
+  span:nth-child(3) {
+    filter: blur(25px);
+  }
+  span:nth-child(4) {
+    filter: blur(150px);
+  }
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  input[type="number"]:focus {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    border: 3px solid #292525;
+  }
+  .span {
+    font-family: "Times New Roman", Times, serif;
+  }
+  input[type="number"] {
+    width: 10%;
+    border: 1px dotted #292525;
+  }
+  .items{
+    background-color: rgb(255, 255, 255);
+ 
+  }
